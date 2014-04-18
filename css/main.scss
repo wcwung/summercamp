@@ -1,0 +1,468 @@
+/*=========================================
+Project              : Abbalove Youth Summer Camp 2014
+Version              : 1.0
+Author               : William Wung / @wcwung
+=========================================== */
+
+// @imports
+$dark: #2A363B;
+
+body {
+  color: $dark;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
+
+
+// Header
+
+  #header {
+    background           : url('../img/bg5.jpg') top no-repeat fixed;
+    width                : 100%;
+    height               : 40%;
+    background-size      : cover;
+    font-family          : 'Montserrat', sans-serif;
+    font-weight          : 700;
+    letter-spacing       : 0.3em;
+    color                : #fff;
+    text-transform       : uppercase;
+    overflow             : hidden;
+   
+
+  }
+
+  #abba {
+    text-align           : center;
+    margin-top           : 80px;
+
+  }
+
+  .logo {
+    width                : 920px;
+    margin               : -50px auto 50px auto;
+    pointer-events       : none;
+
+  }
+
+  // Main Body 
+  
+  #placeholder {
+    width                : 580px;
+    height               : 250px;
+    display              : block;
+  }
+
+  #program-info {
+    background           : url('../img/tree-bg.png') center center no-repeat fixed;
+    height               : 60%;
+    width                : 100%;
+    background-size      : cover;
+    // overflow             : hidden;
+  
+    .verse-box {
+      margin               : 55px auto;
+      max-width            : 580px;
+      height               : 100%;
+      display              : none;
+    }
+
+    .verse {
+      font-family          : 'Montserrat', sans-serif;
+      font-weight          : 700;
+      font-size            : 20px;
+      letter-spacing       : 0.1em;
+      text-transform       : uppercase;
+      text-align           : center;
+      margin-top           : 40px;
+    }
+
+    .verse-number {
+      font-family          : 'Montserrat', sans-serif;
+      font-weight          : 300;
+      font-size            : 12px;
+      letter-spacing       : 0.1em;
+      color                : #000;
+      text-transform       : uppercase;
+      text-align           : center;
+      margin-top           : 20px;
+      
+    }
+  }
+
+  #description {
+    font-family          : 'Lustria', sans-serif;
+    font-size            : 16px;
+    text-align           : center;
+    margin-top           : 0px;
+    line-height          : 2;
+    letter-spacing       : 0.1em;
+    height               : 550px;
+
+   .center {
+      margin               : 0 auto;
+      max-width            : 700px;
+    }
+
+    a {
+      padding-bottom       : 3px;
+      border-bottom        : 1px solid #eee;
+    }
+
+  }
+
+  .small {
+    
+  }
+
+  .aim {
+    text-align           : center;
+    margin-top           : 25px;
+    opacity              : 0.8;
+    width                : 32px;
+    pointer-events       : none;
+  }
+  
+  .sign-up {
+    width                : 120px;
+    height               : 32px;
+    text-align           : center;
+    border               : 1px solid #000;
+    border-radius        : 3px;
+    line-height          : 20px;
+    padding              : 6px;
+    // text-transform    : uppercase;
+    font-size            : 12px;
+    margin               : 20px auto;
+    background           : transparent;
+    -webkit-transition   : background-color 0.4s ease-in-out;
+    -moz-transition      : background-color 0.4s ease-in-out;
+    -ms-transition       : background-color 0.4s ease-in-out;
+    -o-transition        : background-color 0.4s ease-in-out;
+    transition           : background-color 0.4s ease-in-out;
+    cursor               : pointer;
+
+      &:hover {
+        background           : $dark;
+        color                : #fff;
+      }
+     
+      i {
+         margin-left          : 2px;
+      }
+  }
+  
+   .sign-up a {
+    border-bottom: none;
+  }
+  
+  // Preachers 
+  .head {
+    text-align           : center;
+    text-tansform        : uppercase;
+    padding-bottom       : 10px;
+    padding-top          : 50px;
+    width                : 25%;
+    margin               : 0px auto;
+  }
+
+  .border {
+    width                : 9em;
+    height               : 1px;
+    background           : #000;
+    margin               : 0px auto;
+    opacity              : 0.4;
+  }
+
+  #preachers {
+    height               : 600px;
+    font-family          : 'Montserrat', sans-serif;
+    text-tansform        : uppercase;
+    background           : url('../img/geometry.png') repeat fixed;
+    display              : block;
+  }
+
+  #list, .set {
+    margin               : 80px auto;
+    max-width            : 1050px;
+  }
+
+  .person {
+    vertical-align       : top;
+    margin-top           : 300px;
+    max-width            : 350px;
+    opacity: 0;
+    float: left;
+
+    img {
+      width                : 350px;
+    }
+
+    h5 {
+      text-transform       : uppercase;
+      font-size            : 11px;
+    }
+
+    .center {
+      text-align           : justify;
+      display              : inline-block;
+      max-width: 400px;
+    }
+  }
+
+  .social {
+    float                : right;
+    display              : inline-block;
+    margin-top           : 10px;
+    font-size            : 14px;
+    opacity              : 0.8;
+    margin-left          : 10px;
+  }
+
+
+
+// FAQ
+
+  #faq {
+    height               : 600px;
+
+
+  i {
+    margin-right         : 5px;
+  }
+
+  a {
+    text-decoration      : none;
+    color                : inherit;
+    padding-bottom       : 3px;
+    border-bottom        : 1px solid #eee;
+    -webkit-transition   : opacity 0.5s;
+    -moz-transition      : opacity 0.5s;
+    -ms-transition       : opacity 0.5s;
+    -o-transition        : opacity 0.5s;
+    transition           : opacity 0.5s;
+
+      &:hover {
+       opacity              : 0.6;
+      }
+    }
+  }
+
+#faq-list {
+margin               : 80px auto;
+max-width            : 980px;
+
+  em {
+    font-size: 13px;
+    opacity: 0.7;
+  }
+}
+
+#faq-right {
+float                : right;
+}
+
+.faq-left {
+  float: left;
+}
+
+// Schedule 
+$seafoam             : #2cc17b;
+
+#schedule {
+height               : 900px;
+margin               : 0 auto;
+max-width            : 1170px;
+}
+
+.agenda {
+height               : 550px;
+  
+
+  time {
+width                : 90px;
+float                : left;
+  }
+
+  ul {
+list-style           : none;
+  }
+  li {
+padding-top          : 50px;
+text-align           : left;
+max-width            : 400px;
+
+  }
+
+  .date {
+text-align           : left;
+position             : absolute;
+margin               : 0 auto;
+left                 : 55px;
+border-bottom        : 1px solid #ccc;
+padding-bottom       : 10px;
+width                : 225px;
+text-shadow          : 0 1px 1px #fff;
+  }
+}
+
+
+$lefty               : 125px;
+
+.agenda > ul > li {
+position             : relative;
+display              : inline-block;
+width                : 375px;
+zoom                 : 1;
+margin-top           : 20px;
+float: left;
+
+}
+
+.agenda > ul > li:after {
+position             : absolute;
+left                 : $lefty;
+width                : 4px;
+content              : "";
+background           : $seafoam;
+}
+// Friday
+.agenda > ul > .fri:after {
+  height: 20em;
+  margin-top: -20.5em;
+}
+// Saturday
+.agenda > ul > .sat:after {
+  height: 55em;
+  margin-top: -55.5em;
+}
+// Sunday
+.agenda > ul > .sun:after {
+  height: 25em;
+  margin-top: -25.5em;
+}
+
+.agenda > ul > li li:after {
+position             : absolute;
+display              : block;
+left                 : ($lefty - 4px);
+width                : 12px;
+height               : 12px;
+margin-top           : -15px;
+content              : "";
+background           : $seafoam;
+border-radius        : 10px;
+z-index              : 2;
+  
+}
+
+.stronger {
+font-weight          : 700;
+}
+
+
+// Footer 
+#fin {
+  background: url('../img/ocean.jpg') repeat fixed;
+  color: #fff;
+  font-size: 9px;
+  height: 100px;
+  margin-top: 5%;
+ }
+
+ .left-side {
+  max-width: 50%;
+  margin: 0 auto;
+  font-weight: 300;
+  display: inline-block;
+  float: left;
+ }
+
+ .right-side {
+  float: right;
+  text-align: right;
+ }
+
+ .board {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 20px;
+  letter-spacing: 0.1em;
+ }
+
+ .cta {
+  // color: $seafoam;
+  // margin-left: 35px;
+  font-size: 13px;
+  margin-top: 2px;
+
+  a {
+    border-bottom: 1px solid $seafoam !important;
+  }
+
+  a:hover {
+    opacity: 1 !important;
+  }
+ }
+
+//  // Easter Egg - Chicken & Waffles
+//  .chicken {
+//   max-width: 900px;
+//  }
+
+//  .chicken span {
+//   display: inline-block;
+//   width: 125px;
+//   height: 78px;
+//   margin: -280px 40px 54px -34px;
+//   background: url('../img/fried_chicken.png');
+//   position: fixed;
+//   left: 50%;
+
+//   -webkit-animation: chicken 10s infinite linear;
+//   -moz-animation: chicken 10 infinite linear;
+//   animation: chicken 10s infinite linear;
+//   z-index: 100;
+//  }
+
+
+//  .chicken span:nth-child(5n+5) {
+// -webkit-animation-delay: 1s;
+// -moz-animation-delay: 1s;
+// }
+
+// .fchickenspan:nth-child(3n+2) {
+// -webkit-animation-delay: 1.5s;
+// -moz-animation-delay: 1.5s;
+// }
+
+// .chicken span:nth-child(2n+5) {
+// -webkit-animation-delay: 1.7s;
+// -moz-animation-delay: 1.7s;
+// }
+
+//  @-webkit-keyframes chicken {
+// 0% {
+// opacity: 1;
+// -webkit-transform: translate(0, 0px) rotateZ(0deg);
+// }
+// 75% {
+// opacity: 1;
+// -webkit-transform: translate(100px, 600px) rotateZ(270deg);
+// }
+// 100% {
+// opacity: 0;
+// -webkit-transform: translate(150px, 800px) rotateZ(360deg);
+// }
+// }
+
+

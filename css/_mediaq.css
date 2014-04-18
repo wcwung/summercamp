@@ -1,0 +1,131 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 320px) { 
+  #abba {
+    font-size: 0.7em;
+    margin-bottom: 10px;
+  }
+  #description, #schedule,
+  .head {
+    font-size: 13px;
+  }
+
+  #header {
+
+  background  : url('../img/bg5.jpg') left no-repeat;
+
+  }
+  .border {
+    width: 4em;
+  }
+  
+  
+  blockquote {
+    font-size: 12px;
+  }
+
+
+  .aim {
+    width: 20px;
+    margin-top: -10px;
+  }
+
+  #sign-up {
+    width: 96px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 6px;
+  }
+
+  #preachers {
+    height: 100%;
+  }
+
+  #program-info {
+    background             : url('../img/tree-bg.png') left bottom no-repeat;
+  }
+
+  .agenda {
+    margin-left: -20px;
+  }
+
+  .left {
+    left: 10px;
+  }
+
+  #schedule {
+    margin-left: -15px;
+  }
+   
+  .agenda > ul > .fri:after {
+    height: 21em;
+    margin-top: -21.5em;
+  }
+
+  .agenda > ul > .sat:after {
+    height: 57em;
+    margin-top: -57.5em;
+  }
+
+  .agenda > ul > .sun:after {
+    height: 26em;
+    margin-top: -26.5em;
+  }
+
+  #fin {
+    font-size: 7px;
+    margin-top: 50px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 1024px) and (min-width: 768px) { 
+  #header {
+
+  background  : url('../img/bg5.jpg') left no-repeat;
+
+  }
+  .aim { 
+    margin-top: 25px;
+  }
+
+  #faq {
+    font-size: 13px;
+    height: 475px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  #faq-list em {
+    font-size: 10px;
+  }
+  
+  .person {
+    max-width: 265px;
+  }
+  .person img {
+    width: 265px;
+  }
+
+  #list {
+    max-width: 795px !important;
+  }
+
+
+.agenda > ul > li {
+  float: left;
+}
+
+  .sun {
+    margin-top: -470px !important;
+  }
+  
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
