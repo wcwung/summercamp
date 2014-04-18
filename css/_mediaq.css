@@ -2,7 +2,7 @@
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
+@media only screen and (min-width: 320px) and (max-width: 568px) { 
   #abba {
     font-size: 0.7em;
     margin-bottom: 10px;
@@ -19,6 +19,10 @@
   }
   .border {
     width: 4em;
+  }
+
+  #description {
+    height: 620px;
   }
   
   
@@ -39,10 +43,7 @@
     line-height: 6px;
   }
 
-  #preachers {
-    height: 100%;
-  }
-
+  
   #program-info {
     background             : url('../img/tree-bg.png') left bottom no-repeat;
   }
@@ -55,8 +56,13 @@
     left: 10px;
   }
 
+  #preachers {
+    height: 900px;
+  }
+
   #schedule {
     margin-left: -15px;
+    margin-top: 60px;
   }
    
   .agenda > ul > .fri:after {
