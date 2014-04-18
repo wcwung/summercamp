@@ -2,7 +2,7 @@
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 320px) { 
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) { 
   #abba {
     font-size: 0.7em;
     margin-bottom: 10px;
