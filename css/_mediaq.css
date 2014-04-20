@@ -109,14 +109,18 @@
   }
   
   .person {
-    max-width: 265px;
+    max-width: 235px;
   }
   .person img {
-    width: 265px;
+    width: 235px;
   }
 
   #list {
-    max-width: 795px !important;
+    max-width: 705px !important;
+  }
+
+  #preachers {
+    height: 500px;
   }
 
 

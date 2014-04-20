@@ -53,7 +53,7 @@
                     <p>
                         Abbalove International Ministries' Youth Summer Camp
                         <br>Taking place on
-                        <strong>June 27th - 29th, 2014</strong>in <a href="https://www.google.com/maps/place/RETREAT+AGAPE+CHURCH/@33.734446,-117.277961,17z/data=!3m1!4b1!4m2!3m1!1s0x80dc98d0fa06abcf:0x9cdf3e34f97367c9" target="_blank">Retreat Agape, Lake Perris, CA</a>
+                        <strong>June 27th - 29th, 2014</strong>&nbsp;in&nbsp;<a href="https://www.google.com/maps/place/RETREAT+AGAPE+CHURCH/@33.734446,-117.277961,17z/data=!3m1!4b1!4m2!3m1!1s0x80dc98d0fa06abcf:0x9cdf3e34f97367c9" target="_blank">Retreat Agape, Lake Perris, CA</a>
                         <br>Price of Admission:
                         <strong>$80</strong>
                         <span class="small">USD</span>
@@ -68,9 +68,11 @@
                     <br>
                     <p class="center">
                         Campers will learn and grow by participating in eye-opening sessions, interactional group discussions, fun activities, and uplifting worship.</p>
-                    <div class="sign-up">
-                        Register <i class="fa fa-angle-right"></i>
-                    </div>
+                    <a href="https://spb.io/Ek1BiiAhmP" target="blank">
+                        <div class="sign-up">
+                            Register <i class="fa fa-angle-right"></i>
+                        </div>
+                    </a>
                     <img class="aim" src="img/aim.png" alt="aim">
 
                 </div>
@@ -114,7 +116,7 @@
                             <dd>
                                 <div class="cta">
                                   <i class="fa fa-angle-double-right"></i>
-                                  <a href="consent_form.pdf">Consent Form</a>
+                                  <a href="consent_form.pdf" target="_blank">Consent Form</a>
                                 </div>                
                             </dd>
                         </dl>
@@ -123,7 +125,7 @@
                             <dd>Pay $80 cash / credit to Mira Obadja or</dd>
                             <dd><div class="cta">
                               <i class="fa fa-angle-double-right"></i>
-                              <a href="">Register Online</a>
+                              <a href="https://spb.io/Ek1BiiAhmP" target="_blank">Register Online</a>
                             </div></dd>
                             <br>
                             <dd>
@@ -144,10 +146,10 @@
                 <div class="border"></div>
                 <div id="list">
                     <div class="person col-md-4 uno">
-                        <img src="http://valiocon.com/images/people/ryan2x.jpg" class="img-responsive" alt="">
+                        <img src="../img/preachers/leo.jpg" class="img-responsive" alt="">
                         <h5 class="center">Christian Leo</h5>
-                        <i class="fa fa-twitter social"></i>
-                        <i class="fa fa-instagram social"></i> 
+                        <a href="https://twitter.com/coffeeandbibles" target="_blank"><i class="fa fa-twitter social"></a></i>
+                        <a href="http://instagram.com/coffeeandbibles?ref=badge" target="_blank"><i class="fa fa-instagram social"></i> </a>
                     </div>
                     <div class="person col-md-4 dos">
                         <img src="http://valiocon.com/images/people/sam2x.jpg" class="img-responsive" alt="">
@@ -156,10 +158,10 @@
                         <i class="fa fa-instagram social"></i> 
                     </div>
                     <div class="person col-md-4 tres">
-                        <img src="http://valiocon.com/images/people/merek2x.jpg" class="img-responsive" alt="">
+                        <img src="../img/preachers/obadja.jpg" class="img-responsive" alt="">
                         <h5 class="center">Michael Obadja</h5>
-                        <i class="fa fa-twitter social"></i>
-                        <i class="fa fa-instagram social"></i> 
+                        <a href="https://twitter.com/mobadja" target="_blank"><i class="fa fa-twitter social"></i></a>
+                        <a href="http://instagram.com/mobadja" target="_blank"><i class="fa fa-instagram social"></i></a> 
                     </div>
                 </div>
             </div>
@@ -326,7 +328,7 @@
 
             $(document).scroll(function(e) {
 
-                if ($(window).width() < 768) {
+                if ($(window).width() < 1024    ) {
                     $('.verse-box').show();
                     $('#placeholder').hide()
                     $('.person').css({
@@ -334,12 +336,6 @@
                         'opacity': '1'
                     });
                 } else {
-                    // $('.verse-box').show();
-                    // $('#placeholder').hide()
-                    // $('.person').css({
-                    //   'margin-top': '20px',
-                    //   'opacity': '1'
-                    // });
                     $('.verse-box').fadeIn(3200);
                     $('#placeholder').hide();
                     if ($(window).scrollTop() + $(window).height() > $('#list').offset().top) {
