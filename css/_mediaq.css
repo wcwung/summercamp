@@ -2,7 +2,7 @@
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 320px) { 
+@media only screen and (min-width: 320px) and (max-width: 568px) { 
   #abba {
     font-size: 0.7em;
     margin-bottom: 10px;
@@ -14,11 +14,16 @@
 
   #header {
 
-  background  : url('../img/bg5.jpg') left no-repeat;
+  background  : url('/img/bg5.jpg') left no-repeat;
+  height: 100%;
 
   }
   .border {
     width: 4em;
+  }
+
+  #description {
+    height: 620px;
   }
   
   
@@ -39,12 +44,9 @@
     line-height: 6px;
   }
 
-  #preachers {
-    height: 100%;
-  }
-
+  
   #program-info {
-    background             : url('../img/tree-bg.png') left bottom no-repeat;
+    background             : url('/img/tree-bg.png') left bottom no-repeat;
   }
 
   .agenda {
@@ -55,8 +57,13 @@
     left: 10px;
   }
 
+  #preachers {
+    height: 900px;
+  }
+
   #schedule {
     margin-left: -15px;
+    margin-top: 60px;
   }
    
   .agenda > ul > .fri:after {
@@ -65,8 +72,8 @@
   }
 
   .agenda > ul > .sat:after {
-    height: 57em;
-    margin-top: -57.5em;
+    height: 67.5em;
+    margin-top: -68em;
   }
 
   .agenda > ul > .sun:after {
@@ -84,7 +91,7 @@
 @media only screen and (max-width: 1024px) and (min-width: 768px) { 
   #header {
 
-  background  : url('../img/bg5.jpg') left no-repeat;
+  background  : url('/img/bg5.jpg') left no-repeat;
 
   }
   .aim { 
@@ -103,14 +110,18 @@
   }
   
   .person {
-    max-width: 265px;
+    max-width: 235px;
   }
   .person img {
-    width: 265px;
+    width: 235px;
   }
 
   #list {
-    max-width: 795px !important;
+    max-width: 705px !important;
+  }
+
+  #preachers {
+    height: 500px;
   }
 
 

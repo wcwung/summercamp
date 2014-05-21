@@ -21,13 +21,22 @@ body {
   }
 }
 
+iframe {
+  display: block;
+  margin: 15px auto;
+}
+
+.gm-style .default-card {
+  display: none !important;
+}
+
 
 // Header
 
   #header {
-    background           : url('../img/bg5.jpg') top no-repeat fixed;
+    background           : url('/img/bg5.jpg') top no-repeat fixed;
     width                : 100%;
-    height               : 65%;
+    height               : 800px;
     background-size      : cover;
     font-family          : 'Montserrat', sans-serif;
     font-weight          : 700;
@@ -61,7 +70,7 @@ body {
   }
 
   #program-info {
-    background           : url('../img/tree-bg.png') center center no-repeat fixed;
+    background           : url('/img/tree-bg.png') center center no-repeat fixed;
     height               : 60%;
     width                : 100%;
     background-size      : cover;
@@ -71,7 +80,6 @@ body {
       margin               : 55px auto;
       max-width            : 580px;
       height               : 100%;
-      display              : none;
     }
 
     .verse {
@@ -101,7 +109,7 @@ body {
     font-family          : 'Lustria', sans-serif;
     font-size            : 16px;
     text-align           : center;
-    margin-top           : 0px;
+    margin-top           : 100px;
     line-height          : 2;
     letter-spacing       : 0.1em;
     height               : 550px;
@@ -138,7 +146,6 @@ body {
     border-radius        : 3px;
     line-height          : 20px;
     padding              : 6px;
-    // text-transform    : uppercase;
     font-size            : 12px;
     margin               : 20px auto;
     background           : transparent;
@@ -185,7 +192,7 @@ body {
     height               : 600px;
     font-family          : 'Montserrat', sans-serif;
     text-tansform        : uppercase;
-    background           : url('../img/geometry.png') repeat fixed;
+    background           : url('/img/geometry.png') repeat fixed;
     display              : block;
   }
 
@@ -231,7 +238,7 @@ body {
 // FAQ
 
   #faq {
-    height               : 600px;
+    height               : 650px;
 
 
   i {
@@ -340,8 +347,8 @@ background           : $seafoam;
 }
 // Saturday
 .agenda > ul > .sat:after {
-  height: 55em;
-  margin-top: -55.5em;
+  height: 65em;
+  margin-top: -65.5em;
 }
 // Sunday
 .agenda > ul > .sun:after {
@@ -370,7 +377,7 @@ font-weight          : 700;
 
 // Footer 
 #fin {
-  background: url('../img/ocean.jpg') repeat fixed;
+  background: url('/img/ocean.jpg') repeat fixed;
   color: #fff;
   font-size: 9px;
   height: 100px;
@@ -412,6 +419,11 @@ font-weight          : 700;
   a:hover {
     opacity: 1 !important;
   }
+ }
+
+ .vimeo {
+  max-width: 650px;
+  margin: -50px auto;
  }
 
 //  // Easter Egg - Chicken & Waffles
