@@ -5,7 +5,7 @@
 Live Website: [aimsummercamp.org](aimsummercamp.org)
 
 * * *
-![responsiveness](http://i.imgur.com/TK83UP9.png)
+![responsiveness](http://i.imgur.com/VItjVqq.jpg)
 
 ####Description
 
